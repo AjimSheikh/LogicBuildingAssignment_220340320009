@@ -1,0 +1,349 @@
+ Algorithm & Flowchart for the programs.
+
+1)Check the given number is EVEN or ODD?
+
+Step 1: Start.
+
+Step 2: Take num as input from user.
+
+Step 3: Divide the num by 2 and store the remainder in rem.
+
+Step 4: If rem = O then print even.
+          
+Step 5: If not print odd.
+
+Step 7: Stop.
+
+-----------------------------------------------------------------
+
+2) Write a Java Program to find the Factorial of given number?
+
+Step 1: Start
+ 
+Step 2: Declare Variable num, fact & i 
+
+Step 3: Take input from User in num 
+
+Step 4: Initialize Variable fact=1 and i=1 
+
+Step 5: Use formula fact=fact*i and incriment i by 1. 
+Step 6: Repeat Until i<=num
+
+Step 7: Print fact 
+Step 8: Stop
+
+-----------------------------------------------------------------
+
+3) Find the Factorial of a number using Recursion.
+
+step 1: start.
+
+step 2: take input from user n.
+
+step 3: give function call
+        factorial(n).
+
+step 4: Use n * factorial(n-1) formula. factorial will again call itself until n=1.
+
+step 5: print output;
+
+step 6: stop;
+
+-----------------------------------------------------------------
+
+4)Swap two numbers without using third variable approach?
+
+STEP 1: START.
+
+STEP 2: Declare x and y and take value from user .
+
+STEP 3: print the given input.
+
+STEP 4: Add x and y and store the value into any one variable out of them. 
+         like x = x + y.
+
+STEP 5:  y= x - y.
+
+STEP 6: x =x - y.
+
+STEP 7: PRINT x, y.
+
+STEP 8: END.
+
+-----------------------------------------------------------------
+
+
+5) How to check the given number is Positive or Negative in Java?
+
+STEP 1: Start.
+
+STEP 1: Take input in num.
+
+STEP 2: Using if statement see if num is less than 0 or not.
+
+STEP 3: If num is less than 0 Print "This is Negative number".
+
+STEP 4: If num is greater than 0 Print "This is Positive number".
+
+STEP 5: Stop.
+
+-----------------------------------------------------------------
+
+6) Write a Java Program to find whether given number is Leap year or NOT?
+ 
+STEP 1: Start.
+
+STEP 2: Take input from user.
+
+STEP 3: Divide that input by 4.
+
+STEP 4: if reminder is equal to zero print It's a Leap Year.
+
+STEP 5: if not print It's not a Leap Year.
+
+STEP 5: stop.
+
+-----------------------------------------------------------------
+
+7)Write a Java Program to Print 1 To 10 Without Using Loop 
+
+STEP 1: Start
+
+STEP 2:Use print statement 10 times to print from 1 to 10.
+
+STEP 5:stop.
+
+-----------------------------------------------------------------
+
+8)Write a Java Program to print the digits of a Given Number?
+
+STEP 1: Start.
+
+STEP 2: Declare num and count. 
+STEP 4: Take Input from user in num.
+
+STEP 5: Use while loop.
+
+STEP 6: Divide num by 10 until num <0. Each time loop runs increment count.
+STEP 7: Print count.
+step 7: stop.
+ 
+-----------------------------------------------------------------
+
+9)Write a Java Program to print all the Factors of the Given number
+
+STEP 1: Start.
+
+STEP 2: Take input from user in num.
+
+STEP 3: Use For loop. by initialising i=1.
+
+STEP 4: run the loop until i is less than num.
+
+STEP 5: In loop body if num divded by i gives a reminder =0 then print i is a factor.
+
+STEP 6: Else use continue statement.
+
+STEP 7: Stop 
+
+-----------------------------------------------------------------
+
+10)Write a Java Program to find sum of the digits of a given number
+
+
+STEP 1: start;
+
+STEP 2: Take input from user in x and just declare y.
+
+STEP 3: take one more variable as sum =0;
+
+STEP 4: Use while loop. If x not equal to 0 then divide it by 10 and take reminder in y.
+
+STEP 5: take sum=sum+y in loop body. then divide x by 10 and loop will continue
+		untill comdition fails.
+
+STEP 6: print the sum .
+
+STEP 7:stop.
+
+-----------------------------------------------------------------
+
+11)Write a Java algorithm to find the smallest of 3 numbers (a,b,c)?
+
+STEP 1: Start.
+
+STEP 2: Declare the three variables as a,b,c;
+
+STEP 3: Take inputs from user.
+
+STEP 4: Apply nested if condition.
+
+STEP 5:  if a<b then use nested if to see if a<c if true print a is smallest number.
+			else print c is the smallest number.
+			
+STEP 6:  if b<c then print b is smallest number. else print c is the smallest number.			
+
+STEP 7: stop.
+
+-----------------------------------------------------------------
+
+12) How to add two numbers without using the arithmetic operators in Java.
+
+STEP 1: Start.
+
+STEP 2: Take 2 inputs from user in a and b.
+
+STEP 3: use assigment operator a+=b.
+
+STEP 7: Print a.
+
+-----------------------------------------------------------------
+
+13) Write a java program to Reverse a given number?
+
+STEP 1: start;
+
+STEP 2: Take input from user in x and just declare y.
+
+STEP 3: Use while loop. If x not equal to 0 then divide it by 10 and take reminder in y.
+
+STEP 4: print y. run the loop until condition satisfy.
+
+STEP 5:stop.
+
+-----------------------------------------------------------------
+
+
+14)Write a Java Program to find GCD of two given numbers?
+
+STEP 1: start the programm
+
+STEP 2: take two number num1,num2 from user, declare one variable as i.
+
+STEP 3: apply loop 
+
+STEP 4:for(i=1;num1%i==0 && num2%i==0;i++);
+
+STEP 5: print the i,GCD of given two number is i;
+
+STEP 6: stop
+
+-----------------------------------------------------------------
+
+15)  Write a java program to LCM of TWO given number?
+
+STEP 1: start the programm
+
+STEP 2: take two number num1,num2 from user, declare the one variable as i.
+
+STEP 3: applay the loop 
+
+STEP 4:for(i=1;num1%i==0 || num2%i==0;i++);
+
+STEP 5: print the i,LCM of given two number is i;
+
+STEP 6: stop
+
+-----------------------------------------------------------------
+
+16)  Write a java program to LCM of TWO given number using Prime Factors method.
+
+STEP 1: start the programm
+
+STEP 2: take two number num1,num2 from user, declare the one variable as i.
+
+STEP 3: applay the loop 
+
+STEP 4:for(i=1;num1%i==0 || num2%i==0;i++);
+
+STEP 5: print the i,LCM of given two number is i;
+
+STEP 6: stop
+
+-----------------------------------------------------------------
+
+17)Check whether the Given Number is a Palindrome or NOT?
+
+
+STEP 1: start the given program.
+
+STEP 2: enter the num from user.
+
+STEP 3: declare the variable num,reminder,reverse=0;
+
+STEP 4: declare variable n=num assign given number in declare variable;
+
+STEP 5: Use while loop. if n not equal to 0. take remainder of num/10.
+
+STEP 6: Use reverse=reverse*10+reminder and num=num/10.
+
+STEP 7:if reverse=num print given number as palindeome.else print given number is not palindrome
+ 
+step 6: stop.
+
+-----------------------------------------------------------------
+
+18)Write a Java Program to print all the Prime Factors of the Given Number?
+
+STEP 1:start
+
+STEP 2:take number as input from user.
+
+STEP 3:appalying loop 
+
+      for(i=2;i<num;i++)
+        {
+           while(num%i==0)
+         {
+           print the i;
+          }
+         if(num>2)
+           print the num.
+        
+        }
+
+STEp 4: stop the program.
+
+-----------------------------------------------------------------
+19)To print the following series EVEN number Series 2 4 6 8 10 12 14 16 .....?
+
+STEP 1: start the program
+
+STEP 2: gives a input from user as num.
+
+STEP 3:initilize the variablen i=1.
+
+STEP 4:appalying a loop
+
+step 5:
+      for(i;i<=num;i++)
+        {
+         if(n%2==0)
+         print the given num is  even.
+         print i. 
+       }
+
+STEP 6:stop
+       
+-----------------------------------------------------------------
+20)To print the following series ODD number Series 1 3 5 7 9 11 13 ....?
+
+STEP 1: start the program
+
+STEP 2: gives input from user as num
+
+STEP 3:initilize the variablen i=1.
+
+STEP 4:appalying a loop
+
+step 5:
+      for(i;i<=num;i++)
+        {
+         if(n%2!=0)
+         print the given number is odd 
+         print the i.
+        
+       }
+
+STEP 6:stop
+-----------------------------------------------------------------
